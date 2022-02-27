@@ -69,13 +69,11 @@ The candidate that won the election was Jefferson County's Diana DeGette with a 
 ### Election-Audit Summary: 
 This script can be used for any election as long as the data file contains the same voter information - voting ballots cast, geograpical running area and candidate information. With a few modifications this script could even be used to asertain election results at the state level by subing out coding that pulls 'county' infomation with 'state' information. For example, when creating the county list and dictionary one could sub out county for state information:
 
-1: Create a county list and county votes dictionary.
 county_names = []
 county_votes = {}
 
 To 
 
-1: Create a county list and county votes dictionary.
 state_names = []
 state_votes = {}
 
