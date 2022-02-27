@@ -31,6 +31,7 @@ The analysis of the election showed that:
 ## Challenge Overview
 
 ### Overview of Election Audit
+The goal of this project is to determine the election results for the election commission of Colorado to complete their audit. The election results include the following data which was synthesized by taking data from a provided election_results.csv file, uploading the file in VS code, coding the results using Python programming language and saving the election results to a text file:
 
 
 ## Challenge Summary
