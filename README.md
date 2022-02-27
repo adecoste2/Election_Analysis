@@ -67,3 +67,35 @@ The candidate that won the election was Jefferson County's Diana DeGette with a 
 ## Challenge Summary
 
 ### Election-Audit Summary: 
+This script can be used for any election as long as the data file contains the same voter information - voting ballots cast, geograpical running area and candidate information. With a few modifications this script could even be used to asertain election results at the state level by subing out coding that pulls 'county' infomation with 'state' information. For example, when creating the county list and dictionary one could sub out county for state information:
+
+1: Create a county list and county votes dictionary.
+county_names = []
+county_votes = {}
+
+To 
+
+1: Create a county list and county votes dictionary.
+state_names = []
+state_votes = {}
+
+Additionally, if one desired they could also find the county with the lowest turnout for further investigation, i.e., voter accessability, potential gerrymandering, etc. To do this one would need to first track the smallest county turnout by adding the below step to the code: 
+
+smallest_county_turnout =""
+smallest_county_vote = 0
+
+Then adding an if statement:
+if (county_vote < smallest_county_vote):
+            smallest_county_vote = county_vote
+            smallest_county_turnout = county
+
+And finally by printing  and saving the script:
+ smallest_county_turnout = (
+        f"\n-----------------------------\n"
+        f"Smallest County Turnout: {smallest_county_turnout}\n"
+        f"-----------------------------\n\n"
+    )
+    print(smallest_county_turnout)
+    
+txt_file.write(smallest_county_turnout)
+
