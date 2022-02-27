@@ -39,19 +39,31 @@ The goal of this project is to determine the election results for the election c
 From this project the follow was assertained for the election commission:
 
 There were a total of 369,711 votes cast. 
+
 ![Election_Results_Total_Votes](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election_Results_Total_Votes.png?raw=true)
 
 The breakdown of the number of votes and the percentage of total votes for each count in the precinct was:
 Jefferson: 10.5% (38,855)
 Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
+
 ![Election_Results_County_Breakdown](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election_Results_County_Breakdown.png?raw=true)
 
 The county with the largest number of votes or largest turnout was Denver:
-![]()
 
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+![Election_Results_Largest_Number_Votes](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election_Results_Largest_Number_Votes.png?raw=true)
+
+The breakdown of the number of votes and the percentage of the total votes each candidate recieved was:
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+
+![Election_Results_Candidate_Breakdown](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election_Results_Candidate_Breakdown.png?raw=true)
+
+The candidate that won the election was Jefferson County's Diana DeGette with a winning vote count of 272,892 and 73.8% of the total votes.
+
+![Election_Results_Winning_Candidate](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election_Results_Winning_Candidate.png?raw=true)
 
 ## Challenge Summary
 
+### Election-Audit Summary: 
