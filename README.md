@@ -33,6 +33,16 @@ The analysis of the election showed that:
 ### Overview of Election Audit
 The goal of this project is to determine the election results for the election commission of Colorado to complete their audit. The election results include the following data which was synthesized by taking data from a provided election_results.csv file, uploading the file in VS code, coding the results using Python programming language and saving the election results to a text file:
 ![Election_Results_Terminal](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election%20Results%20Terminal.png?raw=true)
+![Election_Results_Text_File](https://github.com/adecoste2/Election_Analysis/blob/main/Resources/Election%20Results%20txt.png?raw=true)
+
+### Election-Audit Results
+From this project the follow was assertained for the election commission:
+
+There were a total of 369,711 votes cast. I was able to  
+Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+Which county had the largest number of votes?
+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ## Challenge Summary
 
