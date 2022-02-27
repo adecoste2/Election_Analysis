@@ -104,7 +104,7 @@ with open(file_to_save, "w") as txt_file:
         county_results = (
             f"{county}: {county_percentage:.1f}% ({county_vote:,})\n"
         )
-
+        print(county_results)
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
 
